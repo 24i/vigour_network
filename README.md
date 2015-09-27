@@ -1,9 +1,9 @@
 # plugin
-Fork this repo to make vigour-style native plugins.
+Provides an observable for the device's connectivity
 
 ## Install
-Add `"plugin": "git+ssh://git@github.com:vigour-io/plugin.git#master"` to the dependencies in your app's pakage.json, then run `npm update plugin`
-Coming soon: `npm i vigour-plugin`
+Add `"network": "git+ssh://git@github.com:vigour-io/network.git#master"` to the dependencies in your app's pakage.json, then run `npm update network`
+Coming soon: `npm i vigour-network`
 
 ## Usage
 See [tests](test)

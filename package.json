@@ -1,7 +1,7 @@
 {
-  "name": "plugin",
+  "name": "network",
   "version": "1.0.0",
-  "description": "Example of a vigour-style native plugin. Make new plugins by forking this repo.",
+  "description": "Provides an observable for the device's connectivity",
   "main": "lib/index.js",
   "scripts": {
     "start": "./node_modules/.bin/gaston",
@@ -9,13 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vigour-io/plugin.git"
+    "url": "https://github.com/vigour-io/network.git"
   },
   "keywords": [
     "vigour",
     "wrapper",
     "native",
-    "plugin"
+    "plugin",
+    "network",
+    "connectivity",
+    "wifi",
+    "cell",
+    "3G",
+    "4G"
   ],
   "author": "Shawn Inder <shawn@vigour.io>",
   "contributors": [
@@ -23,9 +29,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vigour-io/plugin/issues"
+    "url": "https://github.com/vigour-io/network/issues"
   },
-  "homepage": "https://github.com/vigour-io/plugin",
+  "homepage": "https://github.com/vigour-io/network",
   "engines": {
     "node": ">=0.12"
   },
@@ -39,8 +45,8 @@
     "plugin": {
       "android": {
         "skipInstall": true,
-        "className": "io.vigour.plugin",
-        "instantiation": "new Plugin(this, webview)"
+        "className": "io.vigour.network",
+        "instantiation": "new Network(this, webview)"
       }
     }
   },
