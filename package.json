@@ -1,5 +1,5 @@
 {
-  "name": "network",
+  "name": "vigour-network",
   "version": "1.0.1",
   "description": "Provides an observable for the device's connectivity",
   "main": "lib/index.js",
