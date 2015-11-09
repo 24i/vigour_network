@@ -1,6 +1,6 @@
 {
   "name": "network",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides an observable for the device's connectivity",
   "main": "lib/index.js",
   "scripts": {
@@ -23,9 +23,11 @@
     "3G",
     "4G"
   ],
-  "author": "Shawn Inder <shawn@vigour.io>",
+  "author": "Vigour",
   "contributors": [
-    "Shawn Inder <shawn@vigour.io>"
+    "Shawn Inder <shawn@vigour.io>",
+    "Michiel Van Liempt <michiel@vigour.io>",
+    "Alexander van de Werff <alex@vigour.io>"
   ],
   "license": "ISC",
   "bugs": {
@@ -36,7 +38,7 @@
     "node": ">=0.12"
   },
   "dependencies": {
-    "vigour-native": "git+ssh://git@github.com:vigour-io/vigour-native.git"
+    "vigour-wrapper": "^1.0.0"
   },
   "devDependencies": {
     "gaston": "^0.14.0"
@@ -51,6 +53,15 @@
     }
   },
   "standard": {
-    "globals": [ "describe", "it", "expect", "before", "after", "beforeEach", "afterEach", "sinon" ]
+    "globals": [
+      "describe",
+      "it",
+      "expect",
+      "before",
+      "after",
+      "beforeEach",
+      "afterEach",
+      "sinon"
+    ]
   }
 }
