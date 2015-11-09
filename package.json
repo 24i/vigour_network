@@ -1,6 +1,6 @@
 {
   "name": "network",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides an observable for the device's connectivity",
   "main": "lib/index.js",
   "scripts": {
@@ -51,6 +51,15 @@
     }
   },
   "standard": {
-    "globals": [ "describe", "it", "expect", "before", "after", "beforeEach", "afterEach", "sinon" ]
+    "globals": [
+      "describe",
+      "it",
+      "expect",
+      "before",
+      "after",
+      "beforeEach",
+      "afterEach",
+      "sinon"
+    ]
   }
 }
